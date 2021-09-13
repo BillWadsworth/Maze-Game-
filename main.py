@@ -31,7 +31,7 @@ top = Tk()
 app=FullScreenApp(top)
 
 createGrid = StringVar()
-cave = Label(top, textvariable = createGrid, font = "courier 14")
+cave = Label(top, textvariable = createGrid, font = "courier 10")
 
 
 def lemmeMove():
