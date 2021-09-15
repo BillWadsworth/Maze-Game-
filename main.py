@@ -17,7 +17,7 @@ import random
 finished = False 
 gridSizeX = 40
 gridSizeY = 35
-amountOfSpaces = int((gridSizeX*gridSizeY)*0.625)
+amountOfSpaces = 1000#int((gridSizeX*gridSizeY)*0.625)
 spaces = []
 numOfCoins = 5
 coins = []
@@ -31,7 +31,7 @@ top = Tk()
 app=FullScreenApp(top)
 
 createGrid = StringVar()
-cave = Label(top, textvariable = createGrid, font = "courier 10")
+cave = Label(top, textvariable = createGrid, font = "courier 7")
 
 
 def lemmeMove():
